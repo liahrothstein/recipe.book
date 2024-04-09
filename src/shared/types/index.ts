@@ -1,1 +1,1 @@
-export type { Recipe } from './recipe';
+export type { Recipe, Product } from './recipe';

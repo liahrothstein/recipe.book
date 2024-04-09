@@ -1,4 +1,5 @@
-interface Product {
+export interface Product {
+    key: string,
     ingredientIcon: string,
     ingredientName: string,
     grossWeight: number,
@@ -6,6 +7,7 @@ interface Product {
 };
 
 export interface Recipe {
+    id: number,
     title: string,
     ingredients: Product[],
     output: number,
