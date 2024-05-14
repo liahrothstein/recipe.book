@@ -5,6 +5,8 @@ import type { TableProps } from 'antd'
 import type { Product, Recipe } from '../../../shared/types';
 import { recipes } from '@constants/recipes';
 
+import './RecipePage.scss';
+
 export function RecipePage() {
     const { Content } = Layout;
     const { Title, Paragraph } = Typography;

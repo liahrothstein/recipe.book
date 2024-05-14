@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+h5:where(.css-dev-only-do-not-override-1kuana8).ant-typography {
+    padding: 0 16px;
+    color: $sideTextColor;
+}
+
+ul.ant-list-items {
+    li.ant-list-item {
+        padding: 12px 16px;
+    }
+}
