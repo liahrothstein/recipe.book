@@ -1,0 +1,5 @@
+@use '../abstracts' as *;
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-layout-footer {
+    background-color: $footerBackgroundColor;
+}

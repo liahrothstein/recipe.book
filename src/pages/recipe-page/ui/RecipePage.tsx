@@ -24,12 +24,12 @@ export function RecipePage() {
             key: 'ingredientName'
         },
         {
-            title: 'БРУТТО',
+            title: 'БРУТТО (г)',
             dataIndex: 'grossWeight',
             key: 'grossWeight'
         },
         {
-            title: 'НЕТТО',
+            title: 'НЕТТО (г)',
             dataIndex: 'netWeight',
             key: 'netWeight'
         }
@@ -45,7 +45,7 @@ export function RecipePage() {
                 dataSource={recipeIngredients}
                 columns={recipeColumns}
                 pagination={false} />
-            <Title level={4}>{`Выход готового блюда ${recipe?.output} г`}</Title>
+            <Title level={4}>{`Выход готового блюда ${recipe?.output}г`}</Title>
             <Paragraph>{recipe?.cooking}</Paragraph>
         </Content>
     )

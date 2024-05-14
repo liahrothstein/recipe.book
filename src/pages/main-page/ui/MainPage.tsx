@@ -7,7 +7,7 @@ export function MainPage() {
     const { Title } = Typography;
 
     return (
-        <Content>
+        <Content className='mainPage'>
             <Title level={2}>⬅ Пожалуйста, выберите рецепт в списке</Title>
         </Content>
     )
