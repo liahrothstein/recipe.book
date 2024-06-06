@@ -4,12 +4,14 @@ import {
     borschtWithCabbageAndPotatoes,
     buckwheatPorridgeCrumbly,
     viscousPorridgeWithPumpkin,
-    mainWhiteSauce
+    mainWhiteSauce,
+    ricePorridgeCrumbly
 } from "../recipes";
 
 export const recipes: Recipe[] = [
     borschtWithCabbageAndPotatoes,
     buckwheatPorridgeCrumbly,
+    ricePorridgeCrumbly,
     viscousPorridgeWithPumpkin,
     mainWhiteSauce
 ];
