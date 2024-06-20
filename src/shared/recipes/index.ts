@@ -4,3 +4,4 @@ export { buckwheatPorridgeCrumbly } from './buckwheatPorridgeCrumbly';
 export { ricePorridgeCrumbly } from './ricePorridgeCrumbly';
 export { viscousPorridgeWithPumpkin } from './viscousPorridgeWithPumpkin';
 export { mainRedSauce } from './mainRedSauce';
+export { coldBorscht } from './coldBorscht';
