@@ -7,11 +7,13 @@ import {
     mainWhiteSauce,
     ricePorridgeCrumbly,
     mainRedSauce,
-    coldBorscht
+    coldBorscht,
+    potatoSoupWithPasta
 } from "../recipes";
 
 export const recipes: Recipe[] = [
     borschtWithCabbageAndPotatoes,
+    potatoSoupWithPasta,
     coldBorscht,
     buckwheatPorridgeCrumbly,
     ricePorridgeCrumbly,
