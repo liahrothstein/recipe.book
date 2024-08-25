@@ -7,3 +7,4 @@ export { mainRedSauce } from './mainRedSauce';
 export { coldBorscht } from './coldBorscht';
 export { potatoSoupWithPasta } from './potatoSoupWithPasta';
 export { vegetableStew } from './vegetableStew';
+export { cabbageSoupWithPotatoes } from './cabbageSoupWithPotatoes';

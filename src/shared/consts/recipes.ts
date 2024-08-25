@@ -9,11 +9,13 @@ import {
     mainRedSauce,
     coldBorscht,
     potatoSoupWithPasta,
-    vegetableStew
+    vegetableStew,
+    cabbageSoupWithPotatoes
 } from "../recipes";
 
 export const recipes: Recipe[] = [
     borschtWithCabbageAndPotatoes,
+    cabbageSoupWithPotatoes,
     potatoSoupWithPasta,
     coldBorscht,
     vegetableStew,
