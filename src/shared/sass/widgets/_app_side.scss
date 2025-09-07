@@ -1,6 +1,6 @@
 @use '../abstracts' as *;
 
-h5:where(.css-dev-only-do-not-override-1kuana8).ant-typography {
+h5.ant-typography {
     padding: 0 16px;
     color: $sideTextColor;
 }
